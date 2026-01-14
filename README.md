@@ -1,6 +1,4 @@
-# SFMamba
-
-# Spatial-Frequency Joint Learning Mamba for Hyperspectral Image Classification
+# Spatial-Frequency Joint Learning Mamba for Hyperspectral Image Classification 2026 GRSL
 
 PyTorch implementation of Spatial-Frequency Joint Learning Mamba for Hyperspectral Image Classification.
 
@@ -39,6 +37,3 @@ If you find this code to be useful for your research, please consider citing.
 ```
 
 
-# Reference Code
-
-* ghostnet https://github.com/iamhankai/ghostnet.pytorch
