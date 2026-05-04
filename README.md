@@ -7,7 +7,13 @@ PyTorch implementation of Spatial-Frequency Joint Learning Mamba for Hyperspectr
 ```
 import torch
 from SFMamba import SFMamba
-# Take the Indian Pines dataset as an example, the number of classes and spectral channels are 16 and 200, respectively.
+
+# Take the Indian Pines dataset as an example, the number of
+# classes and spectral channels are 16 and 200, respectively.
+# Use common settings such as patch size = 11, batch size = 100,
+# epochs = 100, and Adam (learning rate = 0.001) to achieve
+# good results. In the paper, the default patch size is 12.
+
 model = SFMamba(in_chans=200, num_classes=16)
 model.eval()
 print(model)
